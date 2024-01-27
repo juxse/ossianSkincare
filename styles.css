@@ -89,7 +89,7 @@ body {
 
 #navbar li{
     list-style: none;
-    padding: 0 20px;
+    padding: 0 0 0 20px;
     position: relative;
 }
 
@@ -136,11 +136,21 @@ body {
     justify-content: center;
 }
 
+#hero img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 180px;
+}
+
 #hero h4{
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 #hero h2{
+    color: #088178;
+}
+
+#hero h1{
     color: #088178;
 }
 
@@ -213,7 +223,6 @@ body {
     padding: 10px 12px;
     border: 1px solid #cce7d0;
     border-radius: 25px;
-    cursor: pointer;
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.02);
     margin: 15px 0;
     transition: 0.2s ease;
@@ -226,7 +235,6 @@ body {
 #product1 .pro img{
     width: 100%;
     border-radius: 20px;
-    
 }
 
 #product1 .pro .des{
@@ -244,6 +252,21 @@ body {
     color: #1a1a1a;
     font-size: 14px;
 }
+
+#product1 .pro .des button{
+    padding: 7px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500px;
+    background: #606063;
+}
+
+#product1 .pro .des button:hover{
+    background-color: #0a988f;
+    color: #fff;  
+}
+
+
 
 #newsletter{
     display: flex;
