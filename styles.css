@@ -481,7 +481,11 @@ footer .copyright{
         width: 100%;
     }
 
+    footer .col{
+        align-items: end;
+    }
+
     footer .copyright{
-        text-align: start;
+        text-align: end;
     }
 }
