@@ -38,6 +38,10 @@ p {
     padding: 40px 80px;
 }
 
+.section-p2 {
+    padding: 40px 20px;
+}
+
 .section-m1{
     margin: 40px 0;
 }
@@ -210,12 +214,21 @@ body {
     text-align: center;
 }
 
+#product1 #bundling{
+    color: rgb(0, 0, 0);
+}
+
 #product1 .pro-container{
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
     flex-wrap: wrap;
 }
+
+#product1 .section-p2{
+        padding: 40px 40px;
+    }
+
 
 #product1 .pro{
     width: 23%;
@@ -329,6 +342,26 @@ footer .col{
 
 }
 
+footer .col .logo-market-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+footer .col .logo-market img{
+    height: 50px;
+    width: 50px;
+}
+
+footer .col .logo-market-mini img{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    gap: 30px;
+}
+
 footer .logo{
     margin-bottom: 30px;
 }
@@ -358,7 +391,7 @@ footer .follow #logo-insta{
 
 footer .copyright{
     width: 100%;
-    text-align: center;
+    text-align:end;
 }
 
 /* media query */

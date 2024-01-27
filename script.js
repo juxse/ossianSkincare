@@ -6,3 +6,8 @@ if (bar) {
       nav.classList.toggle('active');  
     })
 }
+
+function redirectToLink() {
+  var link = 'https://linktr.ee/ossianskincareofficial';
+  window.open(link, '_blank');
+}
