@@ -328,21 +328,20 @@ body {
     border-bottom-left-radius: 0;
 }
 
-footer{
+footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-footer .col{
+footer .col {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 20px;
-
 }
 
-footer .col .logo-market-flex{
+footer .col .logo-market-flex {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -350,49 +349,57 @@ footer .col .logo-market-flex{
     gap: 30px;
 }
 
-footer .col .logo-market img{
+footer .col .logo-market img {
     height: 50px;
     width: 50px;
 }
 
-footer .col .logo-market-mini img{
+footer .col .logo-market-mini img {
     height: 20px;
     width: 20px;
     display: flex;
     gap: 30px;
 }
 
-footer .logo{
-    margin-bottom: 30px;
-}
-
-footer h4{
+footer h4 {
     font-size: 14px;
     padding-bottom: 20px;
 }
 
-footer p{
+footer p {
     font-size: 13px;
     margin: 0 0 8px 0;
 }
 
-footer a{
+footer a {
     font-size: 13px;
     text-decoration: none;
     color: #222;
     margin-bottom: 10px;
 }
 
-footer .follow #logo-insta{
+footer .follow #logo-insta {
     color: #465b52;
     padding-right: 10px;
     cursor: pointer;
 }
 
-footer .copyright{
+footer .copyright {
     width: 100%;
-    text-align:end;
+    text-align: end;
 }
+
+/* Target the second .col element and align its items to the end */
+footer .col:nth-child(1) {
+    align-items: flex-start;
+    text-align: end;
+}
+footer .col:nth-child(2),
+footer .col:nth-child(3) {
+    align-items: flex-end;
+    text-align: end;
+}
+
 
 /* media query */
 @media (max-width: 799px){
