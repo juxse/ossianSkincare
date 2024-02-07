@@ -558,11 +558,11 @@ footer .copyright {
     }
 
     footer .col{
-        align-items: end;
+        align-items: start;
     }
 
     footer .copyright{
-        text-align: end;
+        text-align: start;
     }
 
     /*single product*/
