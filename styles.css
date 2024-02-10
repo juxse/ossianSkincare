@@ -394,7 +394,7 @@ footer .copyright {
 
 /* products */
 #page-header{
-    background-image: url(img/bannerProduct.png);
+    background-image: url(img/bannerPro.png);
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -406,6 +406,31 @@ footer .copyright {
 
 #page-header h1{
     color: white;
+}
+
+#about-header{
+    background-image: url(img/bannerProduct.png);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column; 
+}
+
+#about-header h1{
+    color: white;
+}
+
+#about-main{
+    padding: 25px 25px;
+}
+
+#about-main .about-main-text h4{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 100;
 }
 
 #pagination{
@@ -469,6 +494,9 @@ footer .copyright {
     line-height: 25px;
 }
 
+#prodetails .single-pro-details h3{
+    color: red;
+}
 
 /* media query */
 @media (max-width: 799px){
@@ -580,4 +608,6 @@ footer .copyright {
         width: 100%;
         margin-right: 0px;
     }
+
+    
 }

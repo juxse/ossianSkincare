@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ossian Skincare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+</head>
+
+<body>
+    <section id="header">
+        <a href="index.html"><img src="img/ossian.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="product.html">Product</a></li>
+                <!-- <li><a href="blog.html">Blog</a></li> -->
+                <li><a href="about.html">About</a></li>
+                <li><a href="https://linktr.ee/ossianskincareofficial" target="_blank">Contact</a></li>
+                <!-- <li><a href=""><ion-icon name="cart"></ion-icon></a></li> -->
+            </ul>
+        </div>
+        <div id="mobile">
+            <ion-icon id="bar" class="fas fa-outdent" name="menu-outline"></ion-icon>
+        </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="img/bundling.jpg" width="100%" id="MainImg" alt="">
+                <div class="small-img-group">
+                    <div class="small-img-col">
+                        <img src="img/bundling.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/dbl2.png" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/nbs2.png" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/bundle4.png" width="100%" class="small-img" alt="">
+                    </div>
+                </div>
+        </div>
+
+        <div class="single-pro-details">
+            <h6>Home / Bodycare</h6>
+            <h4>Day Body Lotion & Night Body Serum</h4>
+            <h3>PROMO</h3>
+            <h2>Rp 99.000</h2>
+            <button class="normal" onclick="redirectToLink()">
+            Buy Now <ion-icon name="cart-outline"></ion-icon>
+            </button>                    
+            <h4>Product Details</h4>
+            <span>(Day Body Lotion) Combination of niacinamide and bearberry extract that works to inhibit melanin production, resulting in visibly brighter and more ever-toned skin. Enriched with vitamin E to fulfill the skin's nutritional needs and UVA/UVB filters that provide protection against sun-induced damage to the skin. (Night Body Serum)Combination of glutathione, hyaluronic acid, niacinamide, and licorice extract that work synergistically to brighten and protect the skin from early signs of aging</span>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Other Products</h2>
+        <div class="pro-container">
+            <div class="pro" onclick="window.location.href='dayLotion.html';">
+                <img src="img/dayLotion.jpg" alt="">
+                <div class="des">
+                    <span>Bodycare</span>
+                    <h5>Day Body Lotion</h5>
+                    <div class="lokasiButton">
+                        <button class="normal" onclick="redirectToLink()">
+                            Shop Now <ion-icon name="cart-outline"></ion-icon>
+                        </button>                     
+                    </div>
+                </div>
+            </div>
+            <div class="pro" onclick="window.location.href='nightSerum.html';">
+                <img src="img/nightserum.jpg" alt="">
+                <div class="des">
+                    <span>Bodycare</span>
+                    <h5>Night Body Serum</h5>
+                    <div class="lokasiButton">
+                        <button class="normal" onclick="redirectToLink()">
+                            Shop Now <ion-icon name="cart-outline"></ion-icon>
+                        </button>                     
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1" >
+        <div class="newstext">
+            <h4>Sign Up For Newsletter</h4>
+            <p>Get E-mail updates on our latest product</p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Bali, Indonesia</p>
+            <p><strong>Phone:</strong> (+62)812-8339-2882 </p>
+            <p><strong>Email:</strong> ossianskincare@gmail.com </p>
+            <p><strong>Whatsapp: <a href="wa.me/+6281283392882">wa.me/+6281283392882</a> </p>
+        </div>
+
+        <div class="col">
+            <h4>Our Shop</h4>
+            <div class="logo-market-flex">
+                <a class="logo-market" href="https://tokopedia.link/P3Qp5NVoFGb" target="_blank"><img src="img/tokopedia.svg" alt=""></a>
+                <a class="logo-market" href="https://shp.ee/tqpiq9u" target="_blank"><img src="img/shopee.svg" alt=""></a>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="logo-market-flex">
+                <a class="logo-market-mini" href="https://instagram.com/ossianskincareofficial" target="_blank"><img src="img/instagram.svg" alt=""></a>
+                <a class="logo-market-mini" href="wa.me/+6281283392882" target="_blank"><img src="img/whatsapp.svg" alt=""></a>
+                <a class="logo-market-mini" href="mailto:ossianskincare@gmail.com" target="_blank"><img src="img/envelope.svg" alt=""></a>
+                <a class="logo-market-mini" href="https://linktr.ee/ossianskincareofficial" target="_blank"><img src="img/brand-linktree.svg" alt=""></a>
+            </div>
+            <p>&copy; 2023 Ossian Skincare owned by<br>CV Binar Angkasa Estetika.<br>All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function(){
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function(){
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function(){
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function(){
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
